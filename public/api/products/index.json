@@ -1,0 +1,61 @@
+{
+    "success": true,
+    "message": "Requisição realizada com sucesso",
+    "data": [
+        {
+            "id": 120,
+            "nome": "Camiseta Element Authentic Vinho",
+            "imagem": "https://picsum.photos/id/846/140/140",
+            "valor_unitario": 79.99,
+            "valor_unitario_promocional": 59.99,
+            "marketplace": {
+                "id": 1,
+                "nome": "Ushop"
+            }
+        },
+        {
+            "id": 98,
+            "nome": "Camiseta Calvin Klein Jeans Lettering Verde",
+            "imagem": "https://picsum.photos/id/1038/140/140",
+            "valor_unitario": 79.89,
+            "valor_unitario_promocional": 0,
+            "marketplace": {
+                "id": 1,
+                "nome": "Ushop"
+            }
+        },
+        {
+            "id": 134,
+            "nome": "Camiseta Volcom Real Life Branca",
+            "imagem": "https://picsum.photos/id/773/140/140",
+            "valor_unitario": 79.90,
+            "valor_unitario_promocional": 62.80,
+            "marketplace": {
+                "id": 1,
+                "nome": "Ushop"
+            }
+        },
+        {
+            "id": 156,
+            "nome": "Camiseta Levis Sportwear Logo",
+            "imagem": "https://picsum.photos/id/865/140/140",
+            "valor_unitario": 59.99,
+            "valor_unitario_promocional": 0,
+            "marketplace": {
+                "id": 8,
+                "nome": "Zatini"
+            }
+        },
+        {
+            "id": 187,
+            "nome": "Camiseta Element Authentic Vinho",
+            "imagem": "https://picsum.photos/id/464/140/140",
+            "valor_unitario": 99.90,
+            "valor_unitario_promocional": 79.89,
+            "marketplace": {
+                "id": 13,
+                "nome": "Dafiti"
+            }
+        }
+    ]
+}

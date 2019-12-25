@@ -1,0 +1,25 @@
+.col.input-field.s24{
+    width: 100% !important;
+}
+
+nav {
+    color: #fff;
+    background-color: #053559;
+}
+
+li.product-item.collection-item {
+    display: flex;
+}
+
+.product-item__description {
+    margin-left: 3em;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: left;
+}
+
+.product-item__quantity {
+    margin-left: 5em;
+}
