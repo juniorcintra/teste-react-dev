@@ -13,5 +13,4 @@ npm i
 npm run start
 ```
 
-### Bibliotecas utilizadas
-React
+
