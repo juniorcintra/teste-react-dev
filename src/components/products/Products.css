@@ -15,11 +15,249 @@ li.product-item.collection-item {
     margin-left: 3em;
     display: flex;
     flex-flow: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-content: center;
     align-items: left;
 }
 
 .product-item__quantity {
-    margin-left: 5em;
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.select_quantity{
+    display: block;
+}
+
+.product_nome{
+    font-weight: bold;
+}
+
+.color_cinza{
+    color: #ccc;
+}
+
+.marketplace_nome{
+    color: dodgerblue;
+}
+
+.nav{
+    display: flex;
+    flex-flow: row;
+    padding: 1.3em 1.3em 0.5em 1.3em;
+    background-color: #F4A722;
+}
+
+.navitem{
+    margin: 0 10px;
+    padding-top: 2em;
+}
+
+.navitem2{
+    margin-left: 34%;
+    padding-top: 2em;
+    text-align: right;
+}
+
+.navitem3{
+    margin-left: 14%;
+    padding: 1em;
+    text-align: center;
+}
+
+.navimage{
+    padding: 0 30px 0 15px;
+}
+
+.foto_user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.foto_user2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.label_nome{
+    color: #fff;
+    font-size: 22px;
+    width: 150px;
+}
+
+.progress{
+    width: 100%;
+    margin: 0;
+    
+}
+
+.label_produtos{
+    color: #000;
+    font-size: 14px;
+    width: 150px;
+}
+
+.navborder{
+    padding: 0;
+}
+
+.navlink{
+    color: #000;
+    font-weight: bold;
+}
+
+.navlink2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bordernav{
+    height: 1px;
+    background-color: rgba(0,0,0,0.3);
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.divTitulo1{
+    margin-left: 3em;
+    margin-top: 3em;
+}
+.divTitulo2{
+    margin-left: 3em;
+}
+
+.divTitulo1 h3, .divTitulo2 h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.divTitulo1 h5, .divTitulo2 h5{
+    font-size: 16px;
+}
+
+.produtos{
+    margin-left: 3em;
+    min-width: 50%;
+}
+
+.produtos2{
+    margin-left: 3em;
+    min-width: 50%;
+}
+
+.total_produtos{
+    width: 100%;
+    background-color: rgb(187, 187, 187, 0.4);
+    padding: 5px 15px 5px 15px;
+}
+
+.total_produtos2{
+    width: 100%;
+    background-color: transparent;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.total_produtos p{
+    margin: 0;
+}
+
+.total_produtos2 p{
+    margin: 0;
+}
+
+.rowbottom{
+    margin-bottom: 0px;
+}
+
+.button_carrinho{
+    width: 100%;
+    font-weight: bold;
+}
+
+.button_carrinho2{
+    width: 100%;
+    background-color: #E4E4E4;
+    color: #000;
+    font-weight: bold;
+}
+
+.page-sacola{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.jumbotron{
+    margin-right: 10em;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.jumbotron h5{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer-page{
+    background-color: #1A2638 !important;
+}
+
+.icons-social{
+    width: 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.light, footer.page-footer .footer-copyright {
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.container{
+    width: 100%;
+}
+
+.pagamento{
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.row .col.l6 {
+    width: 100%;
+}
+
+.desc_loja{
+    max-width: 300px;
+}
+
+.menu_footer h5{
+    color: #fff;
+}
+
+.grey-text.text-lighten-3 {
+    color: #21C8DE !important;
+}
+
+.div_pagamento h5 {
+    color: #fff;
+}
+
+.div_pagamento p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.div_pagamento span {
+    color: #A2A2A2;
 }
