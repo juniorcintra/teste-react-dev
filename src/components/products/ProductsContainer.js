@@ -94,6 +94,21 @@ class ProductsContainer extends Component {
             <br></br>
             <label className="label_produtos">Produtos > Todos os Produtos</label>
           </Nav.Item>
+          <Nav.Item className="inputMenularge">
+            <InputGroup className="mb-3 inputMenu">
+              <InputGroup.Prepend className="iconInput">
+                <InputGroup.Text>Buscar:</InputGroup.Text>
+              </InputGroup.Prepend>
+              <FormControl
+                placeholder="Digite o nome do produto, marca ou categoria que deseja buscar…"
+                aria-label="nomedoproduto"
+                aria-describedby="basic-addon1"
+              />
+              <InputGroup.Prepend className="iconInput2">
+                <InputGroup.Text id="basic-addon1"><i class="material-icons">search</i></InputGroup.Text>
+              </InputGroup.Prepend>
+            </InputGroup>
+          </Nav.Item>
         </Nav>
         {this.state.isLoading ? <ProgressBar classNome="progress"/> : ""}
         <div class="divTitulo1">

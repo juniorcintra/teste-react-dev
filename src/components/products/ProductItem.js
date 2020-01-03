@@ -10,7 +10,7 @@ const ProductItem = props => {
       </div>
 
       <div className="product-item__description">
-        <span>{props.product.nome}</span>
+        <span className="nomeProduto">{props.product.nome}</span>
         <span>
           Vendido e entregue por{" "}
           <span className="marketplace_nome">

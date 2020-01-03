@@ -187,6 +187,51 @@ li.product-item.collection-item {
     margin-bottom: 0px;
 }
 
+.nomeProduto{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inputMenu{
+    background-color: #fff;
+    display: flex;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.inputMenularge{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-content: center;
+    margin-left: 55px;
+}
+
+.iconInput{
+    line-height: 45px;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.iconInput2{
+    line-height: 45px;
+    font-size: 20px;
+    padding: 0 10px;
+    margin-top: 7px;
+}
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
+    border-bottom: none;
+    margin: 0;
+    height: none;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: none;
+    box-shadow: none;
+}
+
 .button_carrinho{
     width: 100%;
     font-weight: 600;
