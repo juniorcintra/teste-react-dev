@@ -53,10 +53,12 @@ li.product-item.collection-item {
 .navitem{
     margin: 0 10px;
     padding-top: 2em;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .navitem2{
-    margin-left: 34%;
+    margin-left: 33%;
     padding-top: 2em;
     text-align: right;
 }
@@ -85,8 +87,9 @@ li.product-item.collection-item {
 
 .label_nome{
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
     width: 150px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .progress{
@@ -108,12 +111,14 @@ li.product-item.collection-item {
 .navlink{
     color: #000;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .navlink2{
     color: #fff;
     font-weight: bold;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .bordernav{
@@ -126,6 +131,7 @@ li.product-item.collection-item {
 .divTitulo1{
     margin-left: 3em;
     margin-top: 3em;
+    
 }
 .divTitulo2{
     margin-left: 3em;
@@ -134,10 +140,12 @@ li.product-item.collection-item {
 .divTitulo1 h3, .divTitulo2 h3{
     font-size: 22px;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 .divTitulo1 h5, .divTitulo2 h5{
     font-size: 16px;
+    font-weight: normal !important; 
 }
 
 .produtos{
@@ -167,6 +175,10 @@ li.product-item.collection-item {
     margin: 0;
 }
 
+.total_produtos_titulo{
+    font-weight: bold;
+}
+
 .total_produtos2 p{
     margin: 0;
 }
@@ -177,7 +189,22 @@ li.product-item.collection-item {
 
 .button_carrinho{
     width: 100%;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #1CAEC1;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.button_carrinho:hover{
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #1CAEC1;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+    text-transform: none;
 }
 
 .button_carrinho2{
@@ -185,6 +212,21 @@ li.product-item.collection-item {
     background-color: #E4E4E4;
     color: #000;
     font-weight: bold;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.button_carrinho2:hover{
+    width: 100%;
+    background-color: #E4E4E4;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+    text-transform: none;
 }
 
 .page-sacola{
@@ -200,8 +242,11 @@ li.product-item.collection-item {
 }
 
 .jumbotron h5{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .footer-page{

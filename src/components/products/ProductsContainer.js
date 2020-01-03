@@ -110,7 +110,7 @@ class ProductsContainer extends Component {
             <Jumbotron className="jumbotron">
               <h5>Resumo do Pedido:</h5>
               <div class="total_produtos">
-                <p>Total em produtos:</p>
+                <p class="total_produtos_titulo">Total em produtos:</p>
                 <p>R$ 777,00</p>
               </div>
               <div class="total_produtos2">
