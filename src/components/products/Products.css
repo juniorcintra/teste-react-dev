@@ -129,12 +129,12 @@ li.product-item.collection-item {
 }
 
 .divTitulo1{
-    margin-left: 3em;
+    margin-left: 7em;
     margin-top: 3em;
     
 }
 .divTitulo2{
-    margin-left: 3em;
+    margin-left: 7em;
 }
 
 .divTitulo1 h3, .divTitulo2 h3{
@@ -149,12 +149,12 @@ li.product-item.collection-item {
 }
 
 .produtos{
-    margin-left: 3em;
+    margin-left: 7em;
     min-width: 50%;
 }
 
 .produtos2{
-    margin-left: 3em;
+    margin-left: 7em;
     min-width: 50%;
 }
 
